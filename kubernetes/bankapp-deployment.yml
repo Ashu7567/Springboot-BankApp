@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: trainwithshubham/bankapp-eks:v2
+        image: ashu7567/bankapp-gke:v1
         ports:
         - containerPort: 8080
         env:
